@@ -1,0 +1,40 @@
+name = greenparkint
+description = Install profile for Green Park's International site for use with SpireLight base.
+core = 7.x
+theme = greenparkint
+
+; Install necessary core modules.
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = toolbar
+dependencies[] = shortcut
+
+; Install contribs.
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = inline_entity_form
+dependencies[] = entityreference
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = metatag
+dependencies[] = nocurrent_pass
+dependencies[] = webform
+dependencies[] = views
+dependencies[] = views_ui
+
+; Install Features
+dependencies[] = boxes
+dependencies[] = features
+dependencies[] = strongarm
