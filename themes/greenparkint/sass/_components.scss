@@ -37,3 +37,34 @@
  *       CSS. Exposed filter forms, views pagers and other views elements are
  *       also good candidates for components.
  ******************************************************************************/
+/******************************************
+	Header
+*******************************************/
+.l-header-wrapper {
+	background: $dark-green;
+	border-bottom: 3px solid $light-green;
+	color: $white;
+	padding-top: 0.5em;
+	a {
+		color: $white;
+	}
+}
+/********************************************
+	Menu
+*********************************************/
+ul.menu {
+	padding: 0;
+	margin: 0;
+}
+.menu {
+	.leaf {
+		list-style: none outside;
+		a {
+			font: $menu-items;
+			text-decoration: none;
+			&:hover {
+				color: $light-green;
+			}
+		}
+	}
+}

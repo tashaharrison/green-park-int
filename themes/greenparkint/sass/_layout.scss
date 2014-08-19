@@ -6,3 +6,22 @@
  * components should not be placed here and should instead be kept with the
  * relevant SCSS for that component.
  ******************************************************************************/
+/******************************************
+	Header & Menu
+*******************************************/
+.l-header-wrapper {
+	text-align: center;
+	.leaf {
+		padding: 0.5em 0;
+		text-align: center;
+	}
+}
+@include at-breakpoint($tab) {
+	.l-header-wrapper {
+		text-align: left;
+		.leaf {
+			display: inline-block;
+			padding: 0 0 0 1.4em;
+		}
+	}
+}
