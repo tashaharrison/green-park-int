@@ -69,6 +69,18 @@
 			color: $white;
 		}
 	}
+	.request {
+		@extend .phone;
+		background: $light-green;
+		color: $dark-green;
+		display: inline-block;
+		padding: 0.3em 1em;
+		margin-bottom: 0.6em;
+		@include border-radius(5px);
+		&:hover {
+			color: $white;
+		}
+	}
 }
 /********************************************
 	Menu
@@ -87,6 +99,35 @@ ul.menu {
 				color: $light-green;
 			}
 		}
+	}
+}
+/********************************************
+	Forms
+*********************************************/
+input[type=text], input[type="email"]{
+	border: 1px solid $light-grey;
+	margin: 0.3em;
+	padding: 0.6em;
+	@include border-radius(5px);
+	color: $dark-grey;
+	width: 90%;
+}
+.form-textarea-wrapper textarea {
+	@extend input[type=text];
+	width: 90%;
+}
+.grippie {
+	display: none;
+}
+input[type=submit] {
+	background: $light-green;
+	border: none;
+	font: 1em $body-font;
+	@include border-radius(5px);
+	padding: 0.4em 1em;
+	&:hover {
+		color: $white;
+		cursor: pointer;
 	}
 }
 /********************************************

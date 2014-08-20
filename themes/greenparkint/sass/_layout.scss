@@ -34,6 +34,9 @@
 		min-height: 480px;
 		max-width: 920px!important;
 	}
+	.l-branding {
+		padding-top: 0.8em;
+	}
 }
 /* Fix menu to the top */
 @include at-breakpoint($desk) {
@@ -46,6 +49,30 @@
 		}
 		.l-main {
 			padding-top: 6em;
+		}
+	}
+}
+/********************************************
+	Pages
+*********************************************/
+/* Contact */
+@include at-breakpoint($tab) {
+	.node-type-webform {
+		.field--name-body {
+			width: 50%;
+			float: left;
+			padding-right: 2.6em;
+		}
+		.webform-client-form {
+			width: 45%;
+			float: left;
+		}
+	}
+}
+@include at-breakpoint($desk) {
+	.node-type-webform {
+		.field--name-body {
+			padding-right: 3.195em;
 		}
 	}
 }
