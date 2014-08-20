@@ -21,8 +21,8 @@
     <?php print render($page['header']); ?>
 	</div>
   </header>
-	<?php print render($page['navigation']); ?>
   <div class="l-main">
+	<?php print render($page['navigation']); ?>
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>

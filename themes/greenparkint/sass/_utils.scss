@@ -31,13 +31,16 @@ $text-color: #444;
 $header-color: #666;
 $link-color: #76a326;
 $hover-color: #0a3d29;
-$menu-items: 14px/17px Arial, Helvetica, sans-serif;
+$light-grey: #E8E6E6;
+$dark-grey: #474646;
 
 /*******************
 	Define Fonts
 ********************/
 $body-font: HelveticaLightRegular, Arial, Helvetica, sans-serif;
+$body-font-light: HelveticaNeueLight,Arial, Helvetica, sans-serif;
 $header-font: HelveticaNeueThinCondRegular, Arial, Helvetica, sans-serif;
+$menu-items: 14px/17px Arial, Helvetica, sans-serif;
 
 /* font-face */
 @font-face{

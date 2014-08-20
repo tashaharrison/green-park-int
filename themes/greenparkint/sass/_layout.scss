@@ -24,4 +24,28 @@
 			padding: 0 0 0 1.4em;
 		}
 	}
+	.l-region--header {
+		text-align: right;
+		.menu {
+			text-align: right;
+		}
+	}
+	.l-content {
+		min-height: 480px;
+		max-width: 920px!important;
+	}
+}
+/* Fix menu to the top */
+@include at-breakpoint($desk) {
+	.not-logged-in {
+		.l-header-wrapper {
+			position: fixed;
+			width: 100%;
+			top: 0;
+			left: 0;
+		}
+		.l-main {
+			padding-top: 6em;
+		}
+	}
 }

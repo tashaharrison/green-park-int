@@ -22,16 +22,13 @@ body {
 p {
 	line-height: 1.7em;
 }
-.l-main {
-	background: url('../images/bg-main.gif');
-}
 h1 {
 	margin-top: 0;
 	padding-top: 0.5em;
 	font: 200% $header-font normal;
 }
 h2 {
-	font:32px/35px $header-font; 
+	font:150% $header-font; 
 	margin:0 0 13px; 
 	color: $header-color;
 }
@@ -52,4 +49,10 @@ a {
 	&:hover {
 		color: $hover-color;
 	}
+}
+li {
+	padding: 0.3em 0;
+}
+.links--inline li {
+	padding: 0;
 }

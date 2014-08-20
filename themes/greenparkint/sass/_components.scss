@@ -38,6 +38,20 @@
  *       also good candidates for components.
  ******************************************************************************/
 /******************************************
+	Main theming
+*******************************************/
+.l-main {
+	background: url('../images/bg-main.gif');
+}
+.l-region--navigation {
+	background: $white;
+	border-bottom: 1px solid $light-grey;
+}
+.l-footer {
+	color: $dark-grey;
+	text-align: center;
+}
+/******************************************
 	Header
 *******************************************/
 .l-header-wrapper {
@@ -47,6 +61,13 @@
 	padding-top: 0.5em;
 	a {
 		color: $white;
+	}
+	.phone {
+		color: $light-green;
+		font: 18px/21px $body-font-light;
+		span {
+			color: $white;
+		}
 	}
 }
 /********************************************
@@ -66,5 +87,19 @@ ul.menu {
 				color: $light-green;
 			}
 		}
+	}
+}
+/********************************************
+	Homepage
+*********************************************/
+#block-boxes-hp-image {
+	max-width: 920px;
+	margin: 0 auto;
+	padding-top: 0.3em;
+	.boxes-box-controls {
+		display: none;
+	}
+	img {
+		display: block;
 	}
 }

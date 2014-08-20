@@ -15,7 +15,7 @@
   padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 0.7em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/o4820488215\.ftp\/\.rvm\/gems\/ruby-2\.0\.0-p481\/gems\/compass-0\.12\.7\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
 .l-header:after,
@@ -31,7 +31,7 @@
 .l-region--help,
 .l-region--sidebar-first,
 .l-region--sidebar-second {
-  margin-bottom: 20px;
+  margin-bottom: 0.7em;
 }
 
 @media (min-width: 44em) {
