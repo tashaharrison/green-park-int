@@ -15,6 +15,9 @@
 		padding: 0.5em 0;
 		text-align: center;
 	}
+	.l-branding {
+		padding-bottom: 0.5em;
+	}
 }
 @include at-breakpoint($tab) {
 	.l-header-wrapper {
@@ -51,6 +54,35 @@
 			padding-top: 6em;
 		}
 	}
+}
+/* Responsive Menu */
+.tab-inactive {
+	.l-header-wrapper .request {
+		display: none;
+	}
+	#block-system-main-menu {
+		background: $light-green;
+		padding: 0.5em 0;
+		font-size: 1.2em;
+		margin-top: 0.4em;
+		@include border-radius(5px);
+		color: $dark-green;
+		a {
+			color: $dark-green;
+		}
+		.menu-icon {
+			width: 95%;
+			margin: 0 auto;
+			&.close {
+				@include spr-sprite("menu");
+				height: 22px;
+			}
+			&.open {
+				@include spr-sprite("menu-close");
+				height: 22px;
+			}
+		}
+	}	
 }
 /********************************************
 	Pages
