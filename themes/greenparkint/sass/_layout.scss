@@ -84,6 +84,29 @@
 		}
 	}	
 }
+/******************************************
+	Footer
+*******************************************/
+@include at-breakpoint($tab) {
+	.l-region--footer {
+		text-align: center;
+		#block-boxes-quick-links {
+			display: inline-block;
+			text-align: left;
+			vertical-align: top;
+			width: 17%;
+			padding-right: 3em;
+		}
+		#block-views-latest-news-block {
+			@extend #block-boxes-quick-links;
+			width: 30%;
+		}
+		#block-boxes-social-links {
+			@extend #block-boxes-quick-links;
+			padding: 0;
+		}
+	}
+}
 /********************************************
 	Pages
 *********************************************/

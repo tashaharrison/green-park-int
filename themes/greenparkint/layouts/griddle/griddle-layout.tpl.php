@@ -46,6 +46,10 @@
   </div>
 
   <footer class="l-footer" role="contentinfo">
-    <?php print render($page['footer']); ?>
+	<div class="footer-header">Find out what's happening on the main website</div>
+	<div class="l-footer-inner">
+		<?php print render($page['footer']); ?>
+	</div>
+	<?php print render($page['footer_base']); ?>
   </footer>
 </div>

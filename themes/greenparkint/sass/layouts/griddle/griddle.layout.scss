@@ -27,7 +27,7 @@ $desk: 70em 16; // At 70em use 16 columns.
 
 .l-header,
 .l-content,
-.l-footer {
+.l-region--footer {
   @include container; // Define these elements as the grid containers.
   margin-bottom: $vert-spacing-unit;
 }
@@ -42,7 +42,7 @@ $desk: 70em 16; // At 70em use 16 columns.
 @include at-breakpoint($tab) { // At a given Susy Media Layout, use a given amount of columns.
   .l-header,
   .l-content,
-  .l-footer {
+  .l-region--footer {
     @include set-container-width; // Reset only the container width (elements have already been declared as containers).
   }
 
@@ -75,7 +75,7 @@ $desk: 70em 16; // At 70em use 16 columns.
 @include at-breakpoint($desk) {
   .l-header,
   .l-content,
-  .l-footer {
+  .l-region--footer  {
     @include set-container-width; // Reset only the container width (elements have already been declared as containers).
   }
 

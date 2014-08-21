@@ -43,13 +43,12 @@
 .l-main {
 	background: url('../images/bg-main.gif');
 }
+.l-content {
+	margin-bottom: 0!important;
+}	
 .l-region--navigation {
 	background: $white;
 	border-bottom: 1px solid $light-grey;
-}
-.l-footer {
-	color: $dark-grey;
-	text-align: center;
 }
 /******************************************
 	Header
@@ -82,6 +81,108 @@
 		}
 	}
 }
+/******************************************
+	Footer
+*******************************************/
+.l-footer {
+	border-top: 2px solid $light-green;
+	color: $dark-grey;
+	font-size: 0.9em;
+}
+.l-region--footer-base {
+	color: $dark-grey;
+	text-align: center;
+}
+.l-footer-inner {
+	background: url(../images/bg-footer-t.gif) 50% 0;
+}
+.l-region--footer {
+	padding-top: 2em;
+	h2 {
+		color: $light-green;
+	}
+	ul {
+		padding: 0;
+	}
+	li {
+		border-top: 1px solid darken($dark-grey, 20%);
+		background: url(../images/bullet.gif) no-repeat 4px 50%;
+		list-style: none outside;
+		padding: 5px 0 3px 17px;
+	}	
+	li.first {
+		border: none;
+	}
+	a {
+		color: $dark-grey;
+		text-decoration: none;
+		&:hover {
+			color: $light-grey;
+		}
+	}
+	.views-row {
+		border-top: 1px solid darken($dark-grey, 20%);
+	}
+	.views-row-1 {
+		border: none;
+	}
+}
+#block-views-latest-news-block {
+	h4 {
+		margin-bottom: 0;
+	}
+}
+#block-boxes-social-links {
+	li {
+		background: none;
+		padding: 1em 0 1em 0.8em;
+		vertical-align: top;
+	}
+	a {
+		font-size: 1.1em;
+		min-height: 17px;
+		padding: 0.5em 0 0.5em 3em;
+		background: url(../images/ico-social.png) no-repeat -9999px -9999px;
+		&.ico-tweet {
+			background-position: 0 0;
+			padding-top: 2px;
+			&:hover {
+				background-position: 0 -128px;
+			}
+		}
+		&.ico-fb {
+			background-position: -596px 0;
+			&:hover {
+				background-position: -596px -123px;
+			}
+		}
+		&.ico-linkedin {
+			background-position: -296px 0;
+			&:hover {
+				background-position: -296px -123px;
+			}
+		}
+		&.ico-youtube {
+			background-position: -897px 0;
+			&:hover {
+				background-position: -897px -122px;
+			}
+		}
+		&.ico-gplus {
+			background-position: -1496px 0;
+			&:hover {
+				background-position: -1496px -122px;
+			}
+		}
+	}
+}
+.footer-header {
+	background: $light-green;
+	text-align: center;
+	font: 1.5em $header-font;
+	padding: 0.3em 0 0.5em;
+	color: $dark-green;
+}
 /********************************************
 	Menu
 *********************************************/
@@ -104,7 +205,9 @@ ul.menu {
 /********************************************
 	Forms
 *********************************************/
-input[type=text], input[type="email"]{
+input[type=text], 
+input[type="email"],
+input[type="password"]{
 	border: 1px solid $light-grey;
 	margin: 0.3em;
 	padding: 0.6em;
