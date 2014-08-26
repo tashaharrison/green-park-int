@@ -40,6 +40,16 @@
 	.l-branding {
 		padding-top: 0.8em;
 	}
+	#block-boxes-phone-number {
+		padding: 0 0 2.5em;
+	}
+}
+@include at-breakpoint($desk) {
+	.l-header-wrapper {
+		.leaf {
+			padding: 0 0 0 3em;
+		}
+	}
 }
 /* Fix menu to the top */
 @include at-breakpoint($desk) {
@@ -51,7 +61,7 @@
 			left: 0;
 		}
 		.l-main {
-			padding-top: 7.35em;
+			padding-top: 7.05em;
 		}
 	}
 }
@@ -128,6 +138,16 @@
 	.node-type-webform {
 		.field--name-body {
 			padding-right: 3.195em;
+		}
+	}
+}
+/********************************************
+	Homepage
+*********************************************/
+@include at-breakpoint($desk) {
+	.front .l-content {
+		.field-group-div {
+			margin: 0 2.5em;
 		}
 	}
 }
