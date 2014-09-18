@@ -21,7 +21,12 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
-	  print render($content['body']); ?>
+	  print render($content['field_page_image']);
+	  print render($content['field_page_heading']); ?>
+	  <h1><?php print $title; ?></h1>
+	  <?php 
+	  print render($content['body']);
+	  print render($content['field_page_highlight']);?>
 		<div class="contacts-box">
 		  <h3>Talk To Us About <?php print render($title); ?></h3>
 		  <?php print render($content['field_team_members']);?>
