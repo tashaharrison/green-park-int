@@ -203,6 +203,24 @@ ul.menu {
 		}
 	}
 }
+/* About Us Menu */
+.block--menu-menu-about-us {
+	ul.menu {
+		text-align: center;
+		.leaf {
+			display: inline-block;
+		}
+		a {
+			color: $dark-green;
+			padding: 0.5em 0.6em;
+			&:hover {
+				background: $lightest-green;
+				color: $light-green;
+			}
+		}
+	}
+}
+
 /********************************************
 	Forms
 *********************************************/
@@ -344,6 +362,7 @@ input[type=submit] {
 	}
 	.field--name-field-team-profile-pic {
 		float: right;
+		padding: 0.5em;
 	}
 	h4 {
 		font-weight: normal;
@@ -366,5 +385,55 @@ input[type=submit] {
 				text-decoration: underline;
 			}
 		}
+	}
+	.field--name-field-team-bio {
+		display: none;
+	}
+}
+.view-team-members {
+	width: auto;
+	@extend .field--name-field-team-members;
+	.node--team-member {
+		height: auto;
+	}
+	.field--name-field-team-bio {
+		display: block;
+		padding: 0.6em 0;
+	}
+	.views-row {
+		width: 70%;
+	}
+}
+/********************************************
+	Page
+*********************************************/
+.node--page {
+	.field-label {
+		font: 2.4em $highlight-font;
+		color: $light-green;
+	}
+	.field--name-field-page-heading {
+		font: 2.2em $highlight-font;
+		color: $white;
+	}
+	.highlight {
+		background-color: rgba($light-green, 0.2);
+		padding: 0.4em 0.6em;
+		margin-top: -9.5em;
+		position: absolute;
+		max-width: 893px;
+	}
+	.field--name-field-page-highlight {
+		font: 1.8em $highlight-font;
+		color: $light-green;
+		margin-bottom: 1em;
+	}
+	.field--name-field-page-highlight-2 {
+		@extend .field--name-field-page-highlight;
+	}
+}
+.section-about-us {
+	.l-region--navigation {
+		background: $light-green;
 	}
 }

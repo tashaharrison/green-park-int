@@ -20,14 +20,16 @@
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
-      hide($content['links']);
-	  hide($content['field_team_email']);
-	  hide($content['field_team_email_label']);?>
+      hide($content['links']); ?>
 	  <?php print render($content['field_team_profile_pic']); ?>
 	  <h4 class="team-name"><?php print $node->title ?></h4>
-      <?php print render($content); ?>
+      <?php print render($content['field_team_job_title']); ?>
+	  <?php print render($content['field_team_phone_no']); ?>
+	  <?php if ($content['field_team_email']): ?>
 	  <div class="field--name-field-team-email field--name-field-team-email-label field field--type-email">
 	  <a href="mailto:<?php print $node->field_team_email['und'][0]['email']; ?>"><?php print $node->field_team_email_label['und'][0]['value']; ?></a></div>
+	  <?php endif; ?>
+	  <?php print render($content['field_team_bio']); ?>
   </div>
 
   <?php print render($content['links']); ?>
