@@ -286,7 +286,7 @@ input[type=submit] {
 		background: $white;
 		margin-bottom: 1em;
 		height: 311px;
-		width: 227px;
+		width: 212px;
 		position: relative;
 		display: inline-block;
 		text-align: left;
@@ -310,20 +310,33 @@ input[type=submit] {
 		a {
 			text-decoration: none;
 		}
+		.field-group-txt {
+			padding: 0.8em 4% 0.8em 6%;
+		}
+		.field--type-text-long {
+			font-size: 0.9em;
+			line-height: 1.7em;
+			color: $dark-green;
+			overflow: hidden;
+			height: 106px;
+		}
+		.field--type-link-field {
+			font-size: 0.9em;
+			padding: 1em 0;
+		}
 	}
-	.field-group-txt {
-		padding: 0.8em 4% 0.8em 6%;
+}
+.front {
+	@extend .node--page;
+	.highlight {
+		margin-top: -15.5em!important;
+		max-width: 904px!important;
 	}
-	.field--type-text-long {
-		font-size: 0.9em;
-		line-height: 1.7em;
-		color: $dark-green;
-		overflow: hidden;
-		height: 106px;
+	.field-label {
+		color: $white!important;
 	}
-	.field--type-link-field {
-		font-size: 0.9em;
-		padding: 1em 0;
+	.field--name-field-page-body {
+		text-align: left;
 	}
 }
 /********************************************
