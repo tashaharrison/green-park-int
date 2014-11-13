@@ -50,7 +50,6 @@
   </div>
 
   <footer class="l-footer" role="contentinfo">
-	<div class="footer-header">Latest news from the main Green Park website</div>
 	<div class="l-footer-inner">
 		<?php print render($page['footer']); ?>
 	</div>

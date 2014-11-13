@@ -203,23 +203,6 @@ ul.menu {
 		}
 	}
 }
-/* About Us Menu */
-.block--menu-menu-about-us {
-	ul.menu {
-		text-align: center;
-		.leaf {
-			display: inline-block;
-		}
-		a {
-			color: $dark-green;
-			padding: 0.5em 0.6em;
-			&:hover {
-				background: $lightest-green;
-				color: $light-green;
-			}
-		}
-	}
-}
 
 /********************************************
 	Forms
@@ -276,6 +259,7 @@ input[type=submit] {
 		color: $dark-green;
 		font-size: 1.3em;
 		padding-bottom: 0.3em;
+		height: 45px;
 	}
 	.node__content {
 		position: relative;
@@ -285,11 +269,12 @@ input[type=submit] {
 	.field-group-div {
 		background: $white;
 		margin-bottom: 1em;
-		height: 311px;
+		height: auto;
 		width: 212px;
 		position: relative;
 		display: inline-block;
 		text-align: left;
+		vertical-align: top;
 		&:before {
 			content: "";
 			position: absolute;
@@ -318,7 +303,7 @@ input[type=submit] {
 			line-height: 1.7em;
 			color: $dark-green;
 			overflow: hidden;
-			height: 106px;
+			height: 320px;
 		}
 		.field--type-link-field {
 			font-size: 0.9em;
@@ -439,7 +424,7 @@ input[type=submit] {
 	.field--name-field-page-highlight {
 		font: 1.8em $highlight-font;
 		color: $light-green;
-		margin-bottom: 1em;
+		margin: 1em 0;
 	}
 	.field--name-field-page-highlight-2 {
 		@extend .field--name-field-page-highlight;
@@ -447,6 +432,113 @@ input[type=submit] {
 }
 .section-about-us {
 	.l-region--navigation {
+		background: url("../images/bg-page.gif");
+		padding: 1em;
+	}
+}
+/* About Us Menu */
+.block--menu-menu-about-us {
+	ul.menu {
+		text-align: center;
+		padding-top: 1em;
+		.leaf {
+			display: inline-block;
+		}
+		a {
+			color: $light-grey;
+			padding: 0.5em 0.6em;
+			font-size: 0.9em;
+			&:hover {
+				
+			}
+		}
+	}
+}
+/********************************************
+	News & Blog
+*********************************************/
+/*	Blogs View   */
+
+.view-news-blog.view-display-id-page {
+	.views-row {
+		margin: 2em 0 3em;
+		border-bottom: 1px solid $light-grey;
+		padding-bottom: 6em;
+		&.views-row-1 {
+			margin: 0 0 3em;
+		}
+	}
+	.top {
+		clear: both;
+		margin-bottom: 2em;
+		position: relative;
+		border-bottom: 1px solid $light-green;
+		padding-bottom: 1em;
+		&:after {
+			content: '';
+			bottom: -9px;
+			left: 14em;
+			position: absolute;
+			width: 17px;
+			height: 10px;
+			background: url(../images/arrow6.gif) no-repeat -71px 0;
+		}
+	}
+	.views-field-title {
+		h2 {
+			font-family: $header-font;
+			margin: 0;
+			a {
+				color: $text-color;
+				text-decoration: none;
+			}
+		}
+	}
+	.views-field-created {
 		background: $light-green;
+		color: $white;
+		font-size: 2em; 
+		font-family: $header-font;
+		width: 30px;
+		text-align: center;
+		padding: 0.2em 0.3em 0.1em;
+		border-radius: 0.2em;
+		line-height: 0.7em;
+		float: left;
+		margin-right: 0.5em;
+		.sm {
+			font-size: 0.6em;
+		}
+	}
+	.views-field-name {
+		color: $text-color;
+		float: left;
+		font-size: 0.9em;
+		border-right: 1px solid $text-color;
+		padding-right: 0.5em;
+		margin-right: 0.5em;
+		a {
+			text-decoration: none;
+		}
+	}
+	.views-field-field-blog-featured-image {
+		float: left;
+		padding: 0.3em 0.3em 0;
+		border: 1px solid $light-grey;
+		margin-right: 2em;
+	}
+	.views-field-view-node {
+		float: right;
+		margin-top: 1.5em;
+		a {
+			background: $light-green;
+			color: $white;
+			text-decoration: none;
+			padding: 0.5em 0.7em;
+			border-radius: 0.3em;
+			&:hover {
+				background: darken($light-green, 10%);
+			}
+		}
 	}
 }

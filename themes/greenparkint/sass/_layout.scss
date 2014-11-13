@@ -11,6 +11,9 @@
 *******************************************/
 .l-header-wrapper {
 	text-align: center;
+	.first {
+		padding: 0!important;
+	}
 	.leaf {
 		padding: 0.5em 0;
 		text-align: center;
@@ -24,7 +27,7 @@
 		text-align: left;
 		.leaf {
 			display: inline-block;
-			padding: 0 0 0 1.4em;
+			padding: 0 0 0 0.6em;
 		}
 	}
 	.l-region--header {
@@ -39,9 +42,6 @@
 	}
 	.l-branding {
 		padding-top: 0.8em;
-	}
-	#block-boxes-phone-number {
-		padding: 0 0 2.5em;
 	}
 }
 @include at-breakpoint($desk) {
@@ -104,7 +104,7 @@
 			display: inline-block;
 			text-align: left;
 			vertical-align: top;
-			width: 17%;
+			width: 18%;
 			padding-right: 3em;
 		}
 		#block-views-latest-news-block {
@@ -144,6 +144,14 @@
 /********************************************
 	Homepage
 *********************************************/
+.highlight {
+	display: none;
+}
+@include at-breakpoint($tab) {
+	.highlight {
+		display: block;
+	}
+}
 @include at-breakpoint($desk) {
 	.front .l-content {
 		.field-group-div {
