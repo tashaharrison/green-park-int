@@ -81,6 +81,9 @@
 			color: $white;
 		}
 	}
+	#block-boxes-phone-number {
+		margin-bottom: 1em;
+	}
 }
 /******************************************
 	Footer
@@ -128,7 +131,7 @@
 		border: none;
 	}
 }
-#block-views-latest-news-block {
+#block-views-news-blog-block-1 {
 	h4 {
 		margin-bottom: 0;
 	}
@@ -303,7 +306,7 @@ input[type=submit] {
 			line-height: 1.7em;
 			color: $dark-green;
 			overflow: hidden;
-			height: 320px;
+			height: 200px;
 		}
 		.field--type-link-field {
 			font-size: 0.9em;
