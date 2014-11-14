@@ -344,63 +344,49 @@ input[type=submit] {
 		background: url(../images/arrow6.gif) no-repeat -71px 0;
 	}
 }
-.field--name-field-team-members {
-	display: inline-block;
-	width: 40%;
-	vertical-align: top;
-	margin-right: 3em;
-	.node--team-member {
+.view-team-members {
+	.views-row {
 		background: $white url(../images/bg-box.gif) repeat-x 0 100%;
 		box-shadow: 2px 3px 12px rgba(184, 184, 184, 0.75);
 		-webkit-box-shadow: 2px 3px 12px; 
-		height: 130px;
 		padding: 5px 5px 14px 11px;
 		color: $text-color;
 		margin-bottom: 1em;
 		&:hover {
 			background-color: $lightest-green;
 		}
-	}
-	.field--name-field-team-profile-pic {
-		float: right;
-		padding: 0.5em;
-	}
-	h4 {
-		font-weight: normal;
-		margin: 0;
-		padding-top: 0.5em;
-	}
-	.field--name-field-team-phone-no {
-		color: $dark-grey;
-		padding-top: 0.5em;
-	}
-	.field--name-field-team-email {
-		padding-top: 0.5em;
-		text-decoration: none;
-		a {
-			background: url(../images/ico-sprite.gif) no-repeat -132px -24px;
-			padding: 0 0 0 1.6em;
+		.field--name-field-team-profile-pic {
+			float: right;
+			padding: 0.5em;
+		}
+		h4 {
+			font-weight: normal;
+			margin: 0;
+			padding-top: 0.5em;
+		}
+		.field--name-field-team-phone-no {
+			color: $dark-grey;
+			padding-top: 0.5em;
+		}
+		.views-field-field-team-email-label {
+			padding-top: 0.5em;
 			text-decoration: none;
-			&:hover {
-				color: $light-green;
-				text-decoration: underline;
+			a {
+				background: url(../images/ico-sprite.gif) no-repeat -132px -24px;
+				padding: 0 0 0 1.6em;
+				text-decoration: none;
+				&:hover {
+					color: $light-green;
+					text-decoration: underline;
+				}
 			}
 		}
-	}
-	.field--name-field-team-bio {
-		display: none;
-	}
-}
-.view-team-members {
-	@extend .field--name-field-team-members;
-	.node--team-member {
-		height: auto;
-	}
-	.field--name-field-team-bio {
-		display: block;
-		padding: 0.6em 0;
+		.field--name-field-team-bio {
+			padding: 0.6em 0;
+		}
 	}
 }
+
 /********************************************
 	Page
 *********************************************/
