@@ -32,17 +32,21 @@
 	}
 	.l-region--header {
 		text-align: right;
+		width: 80%!important;
 		.menu {
 			text-align: right;
 			.expanded {
+				position: relative;
 				ul.menu {
 					opacity: 0;
 					position: absolute;
 					padding: 1em;
 					top: 1.95em;
-					left: 6em;
+					left: 0;
 					background: url('../images/bg-page.gif');
 					@include transition(all, 0.5s);
+					width: 125px;
+					z-index: 1000;
 					li {
 						display: block;
 						padding: 0.2em 0 0.2em 1.2em;
@@ -56,6 +60,9 @@
 					}
 				}
 			}
+			.collapsed {
+				@extend .expanded;
+			}
 		}
 	}
 	.l-content {
@@ -64,6 +71,7 @@
 	}
 	.l-branding {
 		padding-top: 0.8em;
+		width: 14%!important;
 	}
 }
 @include at-breakpoint($desk) {
@@ -160,6 +168,21 @@
 	.node-type-webform {
 		.field--name-body {
 			padding-right: 3.195em;
+		}
+	}
+}
+/* Team Pages */
+.view-team-members {
+	width: 100%!important;
+	.views-row {
+		width: 100%;
+	}
+}
+@include at-breakpoint($desk) {
+	.view-team-members {
+		width: auto;
+		.views-row {
+			width: 70%;
 		}
 	}
 }

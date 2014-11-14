@@ -392,7 +392,6 @@ input[type=submit] {
 	}
 }
 .view-team-members {
-	width: auto;
 	@extend .field--name-field-team-members;
 	.node--team-member {
 		height: auto;
@@ -400,9 +399,6 @@ input[type=submit] {
 	.field--name-field-team-bio {
 		display: block;
 		padding: 0.6em 0;
-	}
-	.views-row {
-		width: 70%;
 	}
 }
 /********************************************
