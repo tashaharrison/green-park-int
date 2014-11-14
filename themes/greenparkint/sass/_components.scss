@@ -195,7 +195,7 @@ ul.menu {
 	margin: 0;
 }
 .menu {
-	.leaf {
+	li {
 		list-style: none outside;
 		a {
 			font: $menu-items;
