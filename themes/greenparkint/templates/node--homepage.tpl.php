@@ -34,7 +34,7 @@
 		<div class="field field--name-field-hp-box-1-text field--type-text-long field--label-hidden">
 		<?php print $node->field_hp_box_1_text['und'][0]['value'];?></div>
 		<div class="field field--name-field-hp-box-1-link field--type-link-field field--label-hidden">
-		<a href="<?php print $node->field_hp_box_1_link['und'][0]['url'];?>"><?php print $node->field_hp_box_1_link['und'][0]['title'];?>></a></div>
+		<a href="<?php print $node->field_hp_box_1_link['und'][0]['url'];?>"><?php print $node->field_hp_box_1_link['und'][0]['title'];?></a></div>
 	</div>
 	</a>
   </div>
@@ -49,7 +49,7 @@
 		<div class="field field--name-field-hp-box-2-text field--type-text-long field--label-hidden">
 		<?php print $node->field_hp_box_2_text['und'][0]['value'];?></div>
 		<div class="field field--name-field-hp-box-2-link field--type-link-field field--label-hidden">
-		<a href="<?php print $node->field_hp_box_2_link['und'][0]['url'];?>"><?php print $node->field_hp_box_2_link['und'][0]['title'];?>></a></div>
+		<a href="<?php print $node->field_hp_box_2_link['und'][0]['url'];?>"><?php print $node->field_hp_box_2_link['und'][0]['title'];?></a></div>
 	</div>
 	</a>
   </div>
@@ -64,7 +64,7 @@
 		<div class="field field--name-field-hp-box-3-text field--type-text-long field--label-hidden">
 		<?php print $node->field_hp_box_3_text['und'][0]['value'];?></div>
 		<div class="field field--name-field-hp-box-3-link field--type-link-field field--label-hidden">
-		<a href="<?php print $node->field_hp_box_3_link['und'][0]['url'];?>"><?php print $node->field_hp_box_3_link['und'][0]['title'];?>></a></div>
+		<a href="<?php print $node->field_hp_box_3_link['und'][0]['url'];?>"><?php print $node->field_hp_box_3_link['und'][0]['title'];?></a></div>
 	</div>
 	</a>
   </div>
@@ -79,7 +79,7 @@
 		<div class="field field--name-field-hp-box-4-text field--type-text-long field--label-hidden">
 		<?php print $node->field_hp_box_4_text['und'][0]['value'];?></div>
 		<div class="field field--name-field-hp-box-4-link field--type-link-field field--label-hidden">
-		<a href="<?php print $node->field_hp_box_4_link['und'][0]['url'];?>"><?php print $node->field_hp_box_4_link['und'][0]['title'];?>></a></div>
+		<a href="<?php print $node->field_hp_box_4_link['und'][0]['url'];?>"><?php print $node->field_hp_box_4_link['und'][0]['title'];?></a></div>
 	</div>
 	</a>
   </div>

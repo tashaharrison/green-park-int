@@ -25,7 +25,7 @@
  *      - Font sizes and families.
  *      - Layout and grid sizing.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/spr\/\*\.png}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/spr\/\*\.png}line{font-family:\0000350}}
 .spr-sprite, .tab-inactive #block-system-main-menu .menu-icon.close, .tab-inactive #block-system-main-menu .menu-icon.open {
   background: url('../images/generated/spr-sa5db5b26df.png') no-repeat;
 }
@@ -38,67 +38,9 @@
 ********************/
 /* font-face */
 @font-face {
-  font-family: 'HelveticaRegular';
-  src: url("../fonts/helvetica-webfont.eot");
-  src: url("../fonts/helvetica-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica-webfont.woff") format("woff"), url("../fonts/helvetica-webfont.ttf") format("truetype"), url("../fonts/helvetica-webfont.svg#HelveticaRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaLightRegular';
-  src: url("../fonts/helvetica-light-webfont.eot");
-  src: url("../fonts/helvetica-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica-light-webfont.woff") format("woff"), url("../fonts/helvetica-light-webfont.ttf") format("truetype"), url("../fonts/helvetica-light-webfont.svg#HelveticaLightRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueLightCondRegular';
-  src: url("../fonts/helveticaneue-lightcond-webfont.eot");
-  src: url("../fonts/helveticaneue-lightcond-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneue-lightcond-webfont.woff") format("woff"), url("../fonts/helveticaneue-lightcond-webfont.ttf") format("truetype"), url("../fonts/helveticaneue-lightcond-webfont.svg#HelveticaNeueLightCondRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueLight';
-  src: url("../fonts/18925_helveticaneuelt-webfont.eot");
-  src: url("../fonts/18925_helveticaneuelt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/18925_helveticaneuelt-webfont.woff") format("woff"), url("../fonts/18925_helveticaneuelt-webfont.ttf") format("truetype"), url("../fonts/18925_helveticaneuelt-webfont.svg#HelveticaNeueLight") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueRegular';
-  src: url("../fonts/18921_helveticaneue-webfont.eot");
-  src: url("../fonts/18921_helveticaneue-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/18921_helveticaneue-webfont.woff") format("woff"), url("../fonts/18921_helveticaneue-webfont.ttf") format("truetype"), url("../fonts/18921_helveticaneue-webfont.svg#HelveticaNeueRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueItalic';
-  src: url("../fonts/18924_helveticaneueit-webfont.eot");
-  src: url("../fonts/18924_helveticaneueit-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/18924_helveticaneueit-webfont.woff") format("woff"), url("../fonts/18924_helveticaneueit-webfont.ttf") format("truetype"), url("../fonts/18924_helveticaneueit-webfont.svg#HelveticaNeueItalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueCondensedRegular';
-  src: url("../fonts/helveticaneue-condensed-webfont.eot");
-  src: url("../fonts/helveticaneue-condensed-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneue-condensed-webfont.woff") format("woff"), url("../fonts/helveticaneue-condensed-webfont.ttf") format("truetype"), url("../fonts/helveticaneue-condensed-webfont.svg#HelveticaNeueCondensedRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueThinCondRegular';
-  src: url("../fonts/helveticaneue-thincond-webfont.eot");
-  src: url("../fonts/helveticaneue-thincond-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneue-thincond-webfont.woff") format("woff"), url("../fonts/helveticaneue-thincond-webfont.ttf") format("truetype"), url("../fonts/helveticaneue-thincond-webfont.svg#HelveticaNeueThinCondRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'apexnewbookwebfont';
+  src: url("../fonts/apexnewbookwebfont.eot");
+  src: url("../fonts/apexnewbookwebfont.woff") format("woff"), url("../fonts/apexnewbookwebfont.ttf") format("truetype");
 }
 
 /*******************************************************************************
@@ -115,76 +57,60 @@
  * before adding any more specific customisations you ensure that as any new
  * features are added they will be correctly styled without any extra work.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000315}}
 body {
-  background: url("../images/bg-page.gif");
   padding: 0;
   margin: 0;
-  color: #444444;
-  font: 0.9em HelveticaLightRegular, Arial, Helvetica, sans-serif;
+  color: #525252;
+  font: 1em "apexnewbookwebfont", Arial, Helvetica, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000321}}
 p {
   line-height: 1.7em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000324}}
 h1 {
   margin-top: 0;
   padding-top: 0.5em;
-  font: 2.4em HelveticaNeueThinCondRegular, Arial, Helvetica, sans-serif normal;
+  font-size: 2.4em;
+  font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000330}}
 h2 {
-  font: 1.8em HelveticaNeueCondensedRegular, Arial, Helvetica, sans-serif normal;
+  font-size: 1.8em;
+  font-weight: normal;
   margin: 0 0 13px;
-  color: #666666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000335}}
 h3 {
-  font: 1.4em HelveticaNeueThinCondRegular, Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
   line-height: 1.4em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000339}}
-h4 {
-  font-size: 110%;
-  color: #90bb40;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000343}}
-h5 {
-  font-size: 100%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000346}}
-h6 {
-  font-size: 90%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000339}}
 a {
   color: #76a326;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000341}}
 a:hover {
   color: #0a3d29;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000345}}
 li {
   padding: 0.3em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000348}}
 .links--inline li {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_base\.scss}line{font-family:\0000351}}
 a img {
   border: none;
 }
@@ -200,49 +126,36 @@ a img {
 /******************************************
 	Header & Menu
 *******************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000312}}
 .l-header-wrapper {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000314}}
 .l-header-wrapper li {
   padding: 0.5em 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000318}}
 .l-header-wrapper .l-branding {
   padding-bottom: 0.5em;
 }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000323}}
   .l-header-wrapper {
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000325}}
   .l-header-wrapper li {
     display: inline-block;
-    padding: 0 0 0 0.6em;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000328}}
-  .l-header-wrapper li.first {
-    padding: 0;
+    padding: 0.2em 2em 0 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000333}}
-  .l-region--header {
-    text-align: right;
-    width: 80% !important;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000336}}
-  .l-region--header .menu {
-    text-align: right;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000332}}
   .l-region--header .menu .expanded, .l-region--header .menu .collapsed {
     position: relative;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000334}}
   .l-region--header .menu .expanded ul.menu, .l-region--header .menu .collapsed ul.menu {
     opacity: 0;
     position: absolute;
@@ -257,39 +170,49 @@ a img {
     width: 125px;
     z-index: 1000;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000344}}
   .l-region--header .menu .expanded ul.menu li, .l-region--header .menu .collapsed ul.menu li {
     display: block;
     padding: 0.2em 0 0.2em 1.2em;
     background: url(../images/bullet.gif) no-repeat 4px 50%;
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000349}}
+  .l-region--header .menu .expanded ul.menu li a:hover, .l-region--header .menu .collapsed ul.menu li a:hover {
+    border: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000355}}
   .l-region--header .menu .expanded:hover ul.menu, .l-region--header .menu .collapsed:hover ul.menu {
     opacity: 1;
   }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000368}}
-  .l-content {
-    min-height: 480px;
-    max-width: 920px !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000372}}
-  .l-branding {
-    padding-top: 0.8em;
-    width: 14% !important;
-  }
 }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000368}}
   .l-header-wrapper li {
     padding: 0 0 0 2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000372}}
+  .l-region--header {
+    padding-top: 0.2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000375}}
+  .l-header {
+    margin-top: 1.1em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000378}}
+  .l-header .menu a {
+    padding-bottom: 0.7em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000380}}
+  .l-header .menu a:hover {
+    border-bottom: 2px solid white;
   }
 }
 /* Fix menu to the top */
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000390}}
   .not-logged-in .l-header-wrapper {
     position: fixed;
     width: 100%;
@@ -297,17 +220,17 @@ a img {
     left: 0;
     z-index: 100;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\0000397}}
   .not-logged-in .l-main {
     padding-top: 7.05em;
   }
 }
 /* Responsive Menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003104}}
 .tab-inactive .l-header-wrapper .request {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003107}}
 .tab-inactive #block-system-main-menu {
   background: #90bb40;
   padding: 0.5em 0;
@@ -320,21 +243,21 @@ a img {
   border-radius: 5px;
   color: #063c29;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003114}}
 .tab-inactive #block-system-main-menu a {
   color: #063c29;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003117}}
 .tab-inactive #block-system-main-menu .menu-icon {
   width: 95%;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003120}}
 .tab-inactive #block-system-main-menu .menu-icon.close {
   background-position: 0 -22px;
   height: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003124}}
 .tab-inactive #block-system-main-menu .menu-icon.open {
   background-position: 0 0;
   height: 22px;
@@ -344,11 +267,11 @@ a img {
 	Footer
 *******************************************/
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003135}}
   .l-region--footer {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003137}}
   .l-region--footer #block-boxes-quick-links, .l-region--footer #block-views-news-blog-block-1, .l-region--footer #block-boxes-social-links {
     display: inline-block;
     text-align: left;
@@ -356,11 +279,11 @@ a img {
     width: 18%;
     padding-right: 3em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003144}}
   .l-region--footer #block-views-news-blog-block-1 {
     width: 30%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003148}}
   .l-region--footer #block-boxes-social-links {
     padding: 0;
   }
@@ -370,40 +293,40 @@ a img {
 *********************************************/
 /* Contact */
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003160}}
   .node-type-webform .field--name-body {
     width: 50%;
     float: left;
     padding-right: 2.6em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003165}}
   .node-type-webform .webform-client-form {
     width: 45%;
     float: left;
   }
 }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003173}}
   .node-type-webform .field--name-body {
     padding-right: 3.195em;
   }
 }
 /* Team Pages */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003179}}
 .view-team-members {
   width: 100% !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003181}}
 .view-team-members .views-row {
   width: 100%;
 }
 
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003186}}
   .view-team-members {
     width: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003188}}
   .view-team-members .views-row {
     width: 70%;
   }
@@ -411,21 +334,21 @@ a img {
 /********************************************
 	Homepage
 *********************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003196}}
 .highlight {
   display: none;
 }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003200}}
   .highlight {
     display: block;
   }
 }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_layout\.scss}line{font-family:\00003206}}
   .front .l-content .field-group-div {
-    margin: 0 0.5em;
+    margin: 0 0.1em;
   }
 }
 /*******************************************************************************
@@ -470,47 +393,35 @@ a img {
 /******************************************
 	Main theming
 *******************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000343}}
-.l-main {
-  background: url("../images/bg-main.gif");
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000343}}
 .l-content {
   margin-bottom: 0 !important;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000349}}
-.l-region--navigation {
-  background: white;
-  border-bottom: 1px solid #e8e6e6;
 }
 
 /******************************************
 	Header
 *******************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000349}}
 .l-header-wrapper {
-  background: #063c29;
-  border-bottom: 3px solid #90bb40;
+  background: #8cba2f;
   color: white;
   padding-top: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000353}}
 .l-header-wrapper a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000356}}
 .l-header-wrapper .phone, .l-header-wrapper .request {
   color: #90bb40;
-  font: 18px/21px HelveticaNeueLight, Arial, Helvetica, sans-serif;
+  font: 18px/21px "apexnewbookwebfont", Arial, Helvetica, sans-serif;
   padding-bottom: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000360}}
 .l-header-wrapper .phone span, .l-header-wrapper .request span {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000364}}
 .l-header-wrapper .request {
   background: #90bb40;
   color: #063c29;
@@ -523,11 +434,11 @@ a img {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000372}}
 .l-header-wrapper .request:hover {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000376}}
 .l-header-wrapper #block-boxes-phone-number {
   margin-bottom: 1em;
 }
@@ -535,130 +446,130 @@ a img {
 /******************************************
 	Footer
 *******************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000383}}
 .l-footer {
   border-top: 2px solid #90bb40;
   color: #737373;
   font-size: 0.9em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000388}}
 .l-region--footer-base {
   color: #737373;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000392}}
 .l-footer-inner {
   background: url(../images/bg-footer-t.gif) 50% 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000395}}
 .l-region--footer {
   padding-top: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\0000397}}
 .l-region--footer h2 {
   color: #90bb40;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003100}}
 .l-region--footer ul {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003103}}
 .l-region--footer li {
   border-top: 1px solid #404040;
   background: url(../images/bullet.gif) no-repeat 4px 50%;
   list-style: none outside;
   padding: 5px 0 3px 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003109}}
 .l-region--footer li.first {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003112}}
 .l-region--footer a {
   color: #737373;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003115}}
 .l-region--footer a:hover {
-  color: #e8e6e6;
+  color: #d7d7d7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003119}}
 .l-region--footer .views-row {
   border-top: 1px solid #404040;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003122}}
 .l-region--footer .views-row-1 {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003127}}
 #block-views-news-blog-block-1 h4 {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003132}}
 #block-boxes-social-links li {
   background: none;
   padding: 1em 0 1em 0.8em;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003137}}
 #block-boxes-social-links a {
   font-size: 1.1em;
   min-height: 17px;
   padding: 0.5em 0 0.5em 3em;
   background: url(../images/ico-social.png) no-repeat -9999px -9999px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003142}}
 #block-boxes-social-links a.ico-tweet {
   background-position: 0 0;
   padding-top: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003145}}
 #block-boxes-social-links a.ico-tweet:hover {
   background-position: 0 -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003149}}
 #block-boxes-social-links a.ico-fb {
   background-position: -596px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003151}}
 #block-boxes-social-links a.ico-fb:hover {
   background-position: -596px -123px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003155}}
 #block-boxes-social-links a.ico-linkedin {
   background-position: -296px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003157}}
 #block-boxes-social-links a.ico-linkedin:hover {
   background-position: -296px -123px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003161}}
 #block-boxes-social-links a.ico-youtube {
   background-position: -897px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003163}}
 #block-boxes-social-links a.ico-youtube:hover {
   background-position: -897px -122px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003167}}
 #block-boxes-social-links a.ico-gplus {
   background-position: -1496px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003169}}
 #block-boxes-social-links a.ico-gplus:hover {
   background-position: -1496px -122px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003175}}
 .footer-header {
   background: #90bb40;
   text-align: center;
-  font: 1.5em HelveticaNeueThinCondRegular, Arial, Helvetica, sans-serif;
+  font: 1.5em "apexnewbookwebfont", Arial, Helvetica, sans-serif;
   padding: 0.3em 0 0.5em;
   color: #063c29;
 }
@@ -666,34 +577,30 @@ a img {
 /********************************************
 	Menu
 *********************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003185}}
 ul.menu {
   padding: 0;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003190}}
 .menu li {
   list-style: none outside;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003192}}
 .menu li a {
-  font: 14px/17px Arial, Helvetica, sans-serif;
   text-decoration: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003203}}
-.menu li a:hover {
-  color: #90bb40;
+  font-size: 0.9em;
 }
 
 /********************************************
 	Forms
 *********************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003204}}
 input[type=text], .form-textarea-wrapper textarea,
 input[type="email"],
 input[type="password"] {
-  border: 1px solid #e8e6e6;
+  border: 1px solid #d7d7d7;
   margin: 0.3em;
   padding: 0.6em;
   -webkit-border-radius: 5px;
@@ -705,21 +612,21 @@ input[type="password"] {
   width: 90%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003212}}
 .form-textarea-wrapper textarea {
   width: 90%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003216}}
 .grippie {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003219}}
 input[type=submit] {
   background: #90bb40;
   border: none;
-  font: 1em HelveticaLightRegular, Arial, Helvetica, sans-serif;
+  font: 1em "apexnewbookwebfont", Arial, Helvetica, sans-serif;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -727,7 +634,7 @@ input[type=submit] {
   border-radius: 5px;
   padding: 0.4em 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003225}}
 input[type=submit]:hover {
   color: white;
   cursor: pointer;
@@ -736,119 +643,58 @@ input[type=submit]:hover {
 /********************************************
 	Homepage
 *********************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003244}}
-#block-boxes-hp-image {
-  max-width: 920px;
-  margin: 0 auto;
-  padding-top: 0.3em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003248}}
-#block-boxes-hp-image .boxes-box-controls {
-  display: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003251}}
-#block-boxes-hp-image img {
-  display: block;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003233}}
 .front .l-content {
   padding-top: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003235}}
 .front .l-content h1 {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003260}}
-.front .l-content h2 {
-  border-bottom: 1px solid #b7b1b1;
-  color: #063c29;
-  font-size: 1.3em;
-  padding-bottom: 0.3em;
-  height: 45px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003267}}
-.front .l-content .node__content {
-  position: relative;
-  z-index: 20;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003238}}
 .front .l-content .field-group-div {
-  background: white;
   margin-bottom: 1em;
-  height: auto;
-  width: 212px;
-  position: relative;
+  height: 320px;
+  width: 292px;
   display: inline-block;
-  text-align: left;
   vertical-align: top;
+  box-shadow: #d7d7d7 0 0 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003281}}
-.front .l-content .field-group-div:before {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  top: 50%;
-  bottom: 0px;
-  left: 6%;
-  right: 6%;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-  -moz-border-radius: 100px/10px;
-  border-radius: 100px/10px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003245}}
+.front .l-content .field-group-div img {
+  width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003295}}
-.front .l-content .field-group-div:hover {
-  background: #f2f4ed;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003248}}
+.front .l-content .field-group-div h2 {
+  background: #525252;
+  color: white;
+  font-size: 1.05em;
+  padding: 0.4em 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003254}}
 .front .l-content .field-group-div a {
+  color: #525252;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003258}}
 .front .l-content .field-group-div .field-group-txt {
-  padding: 0.8em 4% 0.8em 6%;
+  margin-top: -0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003261}}
 .front .l-content .field-group-div .field--type-text-long {
-  font-size: 0.9em;
-  line-height: 1.7em;
-  color: #063c29;
-  overflow: hidden;
-  height: 200px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003311}}
-.front .l-content .field-group-div .field--type-link-field {
-  font-size: 0.9em;
-  padding: 1em 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003319}}
-.front .highlight {
-  margin-top: -15.5em !important;
-  max-width: 904px !important;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003323}}
-.front .field-label {
-  color: white !important;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003326}}
-.front .field--name-field-page-body {
-  text-align: left;
+  padding: 0.5em 1em;
 }
 
 /********************************************
 	Team Members
 *********************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003269}}
 .contacts-box {
   position: relative;
   padding: 0 0 1.5em;
   border-top: 1px solid #90bb40;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003273}}
 .contacts-box:after {
   content: '';
   top: -1px;
@@ -859,52 +705,52 @@ input[type=submit]:hover {
   background: url(../images/arrow6.gif) no-repeat -71px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003284}}
 .view-team-members .views-row {
   background: white url(../images/bg-box.gif) repeat-x 0 100%;
   box-shadow: 2px 3px 12px rgba(184, 184, 184, 0.75);
   -webkit-box-shadow: 2px 3px 12px;
   padding: 5px 5px 14px 11px;
-  color: #444444;
+  color: #525252;
   margin-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003291}}
 .view-team-members .views-row:hover {
   background-color: #f1fcdc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003294}}
 .view-team-members .views-row .field--name-field-team-profile-pic {
   float: right;
   padding: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003298}}
 .view-team-members .views-row h4 {
   font-weight: normal;
   margin: 0;
   padding-top: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003303}}
 .view-team-members .views-row .field--name-field-team-phone-no {
   color: #737373;
   padding-top: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003307}}
 .view-team-members .views-row .views-field-field-team-email-label {
   padding-top: 0.5em;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003310}}
 .view-team-members .views-row .views-field-field-team-email-label a {
   background: url(../images/ico-sprite.gif) no-repeat -132px -24px;
   padding: 0 0 0 1.6em;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003314}}
 .view-team-members .views-row .views-field-field-team-email-label a:hover {
   color: #90bb40;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003320}}
 .view-team-members .views-row .field--name-field-team-bio {
   padding: 0.6em 0;
 }
@@ -912,50 +758,50 @@ input[type=submit]:hover {
 /********************************************
 	Page
 *********************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003394}}
-.node--page .field-label, .front .field-label {
-  font: 2.4em HelveticaNeueLightCondRegular, Arial, Helvetica, sans-serif;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003330}}
+.node--page .field-label {
+  font: 2.4em "apexnewbookwebfont", Arial, Helvetica, sans-serif;
   color: #90bb40;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003398}}
-.node--page .field--name-field-page-heading, .front .field--name-field-page-heading {
-  font: 2.2em HelveticaNeueLightCondRegular, Arial, Helvetica, sans-serif;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003334}}
+.node--page .field--name-field-page-heading {
+  font: 2.2em "apexnewbookwebfont", Arial, Helvetica, sans-serif;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003402}}
-.node--page .highlight, .front .highlight {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003338}}
+.node--page .highlight {
   background-color: rgba(144, 187, 64, 0.4);
   padding: 0.4em 0.6em;
   margin-top: -9.5em;
   position: absolute;
   max-width: 893px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003409}}
-.node--page .field--name-field-page-highlight, .front .field--name-field-page-highlight, .node--page .field--name-field-page-highlight-2, .front .field--name-field-page-highlight-2 {
-  font: 1.8em HelveticaNeueLightCondRegular, Arial, Helvetica, sans-serif;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003345}}
+.node--page .field--name-field-page-highlight, .node--page .field--name-field-page-highlight-2 {
+  font: 1.8em "apexnewbookwebfont", Arial, Helvetica, sans-serif;
   color: #90bb40;
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003355}}
 .section-about-us .l-region--navigation {
   background: url("../images/bg-page.gif");
   padding: 1em;
 }
 
 /* About Us Menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003362}}
 .block--menu-menu-about-us ul.menu {
   text-align: center;
   padding-top: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003365}}
 .block--menu-menu-about-us ul.menu .leaf {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003432}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003368}}
 .block--menu-menu-about-us ul.menu a {
-  color: #e8e6e6;
+  color: #d7d7d7;
   padding: 0.5em 0.6em;
   font-size: 0.9em;
 }
@@ -964,17 +810,17 @@ input[type=submit]:hover {
 	News & Blog
 *********************************************/
 /*	Blogs View   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003384}}
 .view-news-blog.view-display-id-page .views-row {
   margin: 2em 0 3em;
-  border-bottom: 1px solid #e8e6e6;
+  border-bottom: 1px solid #d7d7d7;
   padding-bottom: 6em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003388}}
 .view-news-blog.view-display-id-page .views-row.views-row-1 {
   margin: 0 0 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003392}}
 .view-news-blog.view-display-id-page .top {
   clear: both;
   margin-bottom: 2em;
@@ -982,7 +828,7 @@ input[type=submit]:hover {
   border-bottom: 1px solid #90bb40;
   padding-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003398}}
 .view-news-blog.view-display-id-page .top:after {
   content: '';
   bottom: -9px;
@@ -992,17 +838,17 @@ input[type=submit]:hover {
   height: 10px;
   background: url(../images/arrow6.gif) no-repeat -71px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003473}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003409}}
 .view-news-blog.view-display-id-page .views-field-title h2 {
-  font-family: HelveticaNeueThinCondRegular, Arial, Helvetica, sans-serif;
+  font-family: "apexnewbookwebfont", Arial, Helvetica, sans-serif;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003412}}
 .view-news-blog.view-display-id-page .views-field-title h2 a {
-  color: #444444;
+  color: #525252;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003418}}
 .view-news-blog.view-display-id-page .views-field-created {
   background: #90bb40;
   color: white;
@@ -1016,36 +862,36 @@ input[type=submit]:hover {
   float: left;
   margin-right: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003430}}
 .view-news-blog.view-display-id-page .views-field-created .sm {
   font-size: 0.6em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003434}}
 .view-news-blog.view-display-id-page .views-field-name {
-  color: #444444;
+  color: #525252;
   float: left;
   font-size: 0.9em;
-  border-right: 1px solid #444444;
+  border-right: 1px solid #525252;
   padding-right: 0.5em;
   margin-right: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003441}}
 .view-news-blog.view-display-id-page .views-field-name a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003445}}
 .view-news-blog.view-display-id-page .views-field-field-blog-featured-image {
   float: left;
   padding: 0.3em 0.3em 0;
-  border: 1px solid #e8e6e6;
+  border: 1px solid #d7d7d7;
   margin-right: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003451}}
 .view-news-blog.view-display-id-page .views-field-view-node {
   float: right;
   margin-top: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003454}}
 .view-news-blog.view-display-id-page .views-field-view-node a {
   background: #90bb40;
   color: white;
@@ -1053,7 +899,7 @@ input[type=submit]:hover {
   padding: 0.5em 0.7em;
   border-radius: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.31-1\.5-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-drupal-7\.34-1\.6-d\.001\/profiles\/greenparkint\/themes\/greenparkint\/sass\/_components\.scss}line{font-family:\00003460}}
 .view-news-blog.view-display-id-page .views-field-view-node a:hover {
   background: #739533;
 }

@@ -24,17 +24,11 @@
 		text-align: left;
 		li {
 			display: inline-block;
-			padding: 0 0 0 0.6em;
-			&.first {
-				padding: 0;
-			}
+			padding: 0.2em 2em 0 0;
 		}
 	}
 	.l-region--header {
-		text-align: right;
-		width: 80%!important;
 		.menu {
-			text-align: right;
 			.expanded {
 				position: relative;
 				ul.menu {
@@ -52,6 +46,9 @@
 						padding: 0.2em 0 0.2em 1.2em;
 						background: url(../images/bullet.gif) no-repeat 4px 50%;
 						text-align: left;
+						a:hover {
+							border: none;
+						}
 					}
 				}
 				&:hover {
@@ -65,19 +62,25 @@
 			}
 		}
 	}
-	.l-content {
-		min-height: 480px;
-		max-width: 920px!important;
-	}
-	.l-branding {
-		padding-top: 0.8em;
-		width: 14%!important;
-	}
 }
 @include at-breakpoint($desk) {
 	.l-header-wrapper {
 		li{
 			padding: 0 0 0 2em;
+		}
+	}
+	.l-region--header {
+		padding-top: 0.2em;
+	}
+	.l-header {
+		margin-top: 1.1em;
+		.menu {
+			a {
+				padding-bottom: 0.7em;
+				&:hover {
+					border-bottom: 2px solid $white;
+				}
+			}
 		}
 	}
 }
@@ -201,7 +204,7 @@
 @include at-breakpoint($desk) {
 	.front .l-content {
 		.field-group-div {
-			margin: 0 0.5em;
+			margin: 0 0.1em;
 		}
 	}
 }

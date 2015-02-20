@@ -13,11 +13,10 @@
  * features are added they will be correctly styled without any extra work.
  ******************************************************************************/
 body {
-	background: url('../images/bg-page.gif');
 	padding: 0;
 	margin: 0;
 	color: $text-color;
-	font: 0.9em $body-font;
+	font: 1em $body-font;
 }
 p {
 	line-height: 1.7em;
@@ -25,26 +24,17 @@ p {
 h1 {
 	margin-top: 0;
 	padding-top: 0.5em;
-	font: 2.4em $header-font normal;
+	font-size: 2.4em;
+	font-weight: normal;
 }
 h2 {
-	font:1.8em $homepage-header normal; 
-	margin:0 0 13px; 
-	color: $header-color;
+	font-size: 1.8em;
+	font-weight: normal;
+	margin: 0 0 13px; 
 }
 h3 {
-	font:1.4em $header-font;
+	font-size: 1.4em;
 	line-height: 1.4em;
-}
-h4 {
-	font-size:110%;
-	color: $light-green;
-}
-h5 {
-	font-size:100%;
-}
-h6 {
-	font-size:90%;
 }
 a {
 	color: $link-color;
