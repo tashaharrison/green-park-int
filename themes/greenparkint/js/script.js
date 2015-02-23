@@ -22,4 +22,16 @@ Drupal.behaviors.menuRespond = {
 	}
 };
 
+Drupal.behaviors.teamDetails = {
+	attach: function() {
+		
+		$('.views-field-field-team-bio').addClass('close');
+		$('.views-field-field-team-bio').click(function() {
+			$(this).toggleClass('open');
+			$(this).toggleClass('close');
+		});
+
+	}
+};
+
 })(jQuery);

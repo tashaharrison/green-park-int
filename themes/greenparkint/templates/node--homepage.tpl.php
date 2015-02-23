@@ -23,7 +23,7 @@
       hide($content['links']);
 	  hide($content);
     ?>
-	<div class="highlight"><?php print render($content['field_page_heading']); ?></div>
+
   <div class="group-box-1 field-group-div">
 	<a href="<?php print $node->field_hp_box_1_link['und'][0]['url'];?>">
 	<div class="field field--name-field-hp-box-1-image field--type-image field--label-hidden">

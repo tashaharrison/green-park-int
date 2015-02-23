@@ -1,3 +1,28 @@
+<?php 
+if (drupal_is_front_page()):
+	$get_image = field_get_items('node', $node, 'field_hp_carousel');
+	$get_highlight = field_get_items('node', $node, 'field_page_heading');
+	$highlight = field_view_value('node', $node, 'field_page_heading', $get_highlight[0]);
+	$image = field_view_value('node', $node, 'field_hp_carousel', $get_image[0],
+		array (
+			'type' => 'image',
+			'settings' => array(
+			'image_style' => 'hp_image',
+		),
+	)); 
+endif;
+if ($node->type=='page') :
+	$get_image = field_get_items('node', $node, 'field_page_image');
+	$image = field_view_value('node', $node, 'field_page_image', $get_image[0],
+		array (
+			'type' => 'image',
+			'settings' => array(
+			'image_style' => 'page_image',
+		),
+	)); 
+endif;
+?>
+
 <div class="l-page">
   <header class="l-header-wrapper" role="banner">
 	<div class="l-header">
@@ -23,6 +48,20 @@
   </header>
   <div class="l-main">
 	<?php print render($page['navigation']); ?>
+	<?php if (drupal_is_front_page()): ?>
+		<?php if ($image && $highlight) : ?>
+			<div class="page-image hp-image"><?php print render($image); ?></div>
+			<div class="hp-highlight">
+				<h1>Green Park Worldwide:</h1>
+				<div class="hp-highlight-text"><?php print render($highlight); ?></div>
+			</div>
+		<?php endif; ?>
+	<?php endif; ?>
+	<?php if ($node->type=='page'): ?>
+		<?php if ($image) : ?>
+			<div class="page-image hp-image"><?php print render($image); ?></div>
+		<?php endif; ?>
+	<?php endif; ?>
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>

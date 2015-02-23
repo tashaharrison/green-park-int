@@ -81,52 +81,36 @@
 	Footer
 *******************************************/
 .l-footer {
-	border-top: 2px solid $light-green;
-	color: $dark-grey;
-	font-size: 0.9em;
+	background: $grey;
 }
 .l-region--footer-base {
-	color: $dark-grey;
+	background: $dark-grey;
+	color: $white;
+	padding: 1.2em 0 1em;
 	text-align: center;
-}
-.l-footer-inner {
-	background: url(../images/bg-footer-t.gif) 50% 0;
 }
 .l-region--footer {
 	padding-top: 2em;
 	h2 {
 		color: $light-green;
+		font-size: 1.2em;
 	}
 	ul {
 		padding: 0;
 	}
 	li {
-		border-top: 1px solid darken($dark-grey, 20%);
-		background: url(../images/bullet.gif) no-repeat 4px 50%;
 		list-style: none outside;
-		padding: 5px 0 3px 17px;
-	}	
-	li.first {
-		border: none;
-	}
-	a {
-		color: $dark-grey;
-		text-decoration: none;
-		&:hover {
-			color: $light-grey;
+		a {
+			text-decoration: none;
+			color: $footer-grey;
+			&:hover {
+				color: $white;
+			}
 		}
-	}
-	.views-row {
-		border-top: 1px solid darken($dark-grey, 20%);
-	}
-	.views-row-1 {
-		border: none;
 	}
 }
 #block-views-news-blog-block-1 {
-	h4 {
-		margin-bottom: 0;
-	}
+
 }
 #block-boxes-social-links {
 	li {
@@ -199,67 +183,97 @@ ul.menu {
 /********************************************
 	Forms
 *********************************************/
+.webform-client-form {
+	background: $lightest-grey;
+	padding: 2em 0 1.8em 2em;
+	margin-bottom: 1em;
+}
 input[type=text], 
-input[type="email"],
-input[type="password"]{
-	border: 1px solid $light-grey;
+input[type=email],
+input[type=password]{
 	margin: 0.3em;
-	padding: 0.6em;
-	@include border-radius(5px);
-	color: $dark-grey;
 	width: 90%;
+	padding: 0.5em 0.3em;
+	background-color: $white;
+	border: 1px inset $light-grey;
 }
 .form-textarea-wrapper textarea {
 	@extend input[type=text];
-	width: 90%;
+	width: 91%;
 }
-.grippie {
+.webform-component-textarea .grippie {
 	display: none;
 }
 input[type=submit] {
-	background: $light-green;
+	background: $green;
 	border: none;
-	font: 1em $body-font;
-	@include border-radius(5px);
-	padding: 0.4em 1em;
+	color: $white;
+	padding: 0.6em 1.2em;
+	float: right;
+	margin-right: 3.2em;
+	font-size: 0.9em;
 	&:hover {
-		color: $white;
 		cursor: pointer;
+		background: $dark-green;
 	}
 }
 /********************************************
 	Homepage
 *********************************************/
-.front .l-content {
-	padding-top: 2em;
-	h1 {
-		display: none;
-	}
-	.field-group-div {
-		margin-bottom: 1em;
-		height: 320px;
-		width: 292px;
-		display: inline-block;
-		vertical-align: top;
-		box-shadow: $light-grey 0 0 0.5em;
-		img {
-			width: 100%;
+
+.front {
+	.hp-highlight {
+		position: absolute;
+		top: 175px;
+		left: 75px;
+		width: 40%;
+		h1 {
+			margin-bottom: 0.2em;
 		}
-		h2 {
-			background: $text-color;
+		.hp-highlight-text {
 			color: $white;
-			font-size: 1.05em;
-			padding: 0.4em 1em;
+			font-size: 1.2em;
 		}
-		a {
-			color: $text-color;
-			text-decoration: none;
+	}
+	.l-content {
+		padding-top: 2em;
+		h1 {
+			display: none;
 		}
-		.field-group-txt{
-			margin-top: -0.3em;
-		}
-		.field--type-text-long {
-			padding: 0.5em 1em;
+		.field-group-div {
+			margin-bottom: 1em;
+			height: 305px;
+			width: 292px;
+			display: inline-block;
+			vertical-align: top;
+			box-shadow: $light-grey 0 0 0.5em;
+			img {
+				width: 100%;
+			}
+			h2 {
+				background: $text-color;
+				color: $white;
+				font-size: 1.05em;
+				padding: 0.4em 1em;
+				margin: 0;
+			}
+			a {
+				color: $text-color;
+				text-decoration: none;
+			}
+			.field-group-txt{
+				margin-top: -0.3em;
+			}
+			.field--type-text-long {
+				padding: 0.5em 1em;
+			}
+			.field--type-link-field {
+				padding-left: 1em;
+				a {
+					color: $green;
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 }
@@ -282,43 +296,77 @@ input[type=submit] {
 }
 .view-team-members {
 	.views-row {
-		background: $white url(../images/bg-box.gif) repeat-x 0 100%;
-		box-shadow: 2px 3px 12px rgba(184, 184, 184, 0.75);
-		-webkit-box-shadow: 2px 3px 12px; 
-		padding: 5px 5px 14px 11px;
-		color: $text-color;
-		margin-bottom: 1em;
-		&:hover {
-			background-color: $lightest-green;
-		}
+		box-shadow: $light-grey 0 -0.3em 0.7em;
+		margin: 1em;
 		.field--name-field-team-profile-pic {
 			float: right;
-			padding: 0.5em;
 		}
-		h4 {
-			font-weight: normal;
-			margin: 0;
+		.views-field-title {
+			font-weight: bold;
+			font-size: 1.1em;
+		}
+		.views-field-field-team-job-title {
 			padding-top: 0.5em;
 		}
 		.field--name-field-team-phone-no {
-			color: $dark-grey;
 			padding-top: 0.5em;
 		}
 		.views-field-field-team-email-label {
 			padding-top: 0.5em;
 			text-decoration: none;
 			a {
-				background: url(../images/ico-sprite.gif) no-repeat -132px -24px;
-				padding: 0 0 0 1.6em;
-				text-decoration: none;
-				&:hover {
-					color: $light-green;
-					text-decoration: underline;
+				position: relative;
+				padding: 0 0 0 2em;
+				text-decoration: underline;
+				&:before {
+					background: url(../images/envelope.png);
+					content: '';
+					position: absolute;
+					height: 17px;
+					width: 25px;
+					left: 0;
 				}
 			}
 		}
-		.field--name-field-team-bio {
-			padding: 0.6em 0;
+		.team-details {
+			padding: 3em;
+		}
+		.views-field-field-team-bio {
+			&.open {
+				clear: both;
+				background: $green;
+				border-top: 2px inset lighten($green, 50%);
+				border-bottom: 2.5em solid $grey;
+				color: $white;
+				padding: 1em 1.5em;
+				position: relative;
+				top: -0.3em;
+				&:after {
+					content: '';
+					background: url(../images/more-close.png);
+					height: 28px;
+					width: 28px;
+					position: absolute;
+					bottom: -33px;
+					right: 8px;
+				}
+			}
+			&.close {
+				border-bottom: 2.5em solid $grey;
+				position: relative;
+				.field-content {
+					display: none;
+				}
+				&:after {
+					content: '';
+					background: url(../images/more.png);
+					height: 27px;
+					width: 27px;
+					position: absolute;
+					bottom: -33px;
+					right: 8px;
+				}
+			}
 		}
 	}
 }
@@ -393,7 +441,7 @@ input[type=submit] {
 		clear: both;
 		margin-bottom: 2em;
 		position: relative;
-		border-bottom: 1px solid $light-green;
+		border-bottom: 1px solid $green;
 		padding-bottom: 1em;
 		&:after {
 			content: '';
@@ -407,7 +455,6 @@ input[type=submit] {
 	}
 	.views-field-title {
 		h2 {
-			font-family: $body-font;
 			margin: 0;
 			a {
 				color: $text-color;
@@ -416,17 +463,16 @@ input[type=submit] {
 		}
 	}
 	.views-field-created {
-		background: $light-green;
+		background: $green;
 		color: $white;
 		font-size: 2em; 
-		font-family: $header-font;
 		width: 30px;
 		text-align: center;
-		padding: 0.2em 0.3em 0.1em;
-		border-radius: 0.2em;
+		padding: 0.3em 0.3em 0.1em;
 		line-height: 0.7em;
 		float: left;
 		margin-right: 0.5em;
+		font-size: 1.5em;
 		.sm {
 			font-size: 0.6em;
 		}
@@ -452,13 +498,12 @@ input[type=submit] {
 		float: right;
 		margin-top: 1.5em;
 		a {
-			background: $light-green;
+			background: $green;
 			color: $white;
 			text-decoration: none;
 			padding: 0.5em 0.7em;
-			border-radius: 0.3em;
 			&:hover {
-				background: darken($light-green, 10%);
+				background: $dark-green;
 			}
 		}
 	}
