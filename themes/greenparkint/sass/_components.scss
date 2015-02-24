@@ -115,14 +115,12 @@
 #block-boxes-social-links {
 	li {
 		background: none;
-		padding: 1em 0 1em 0.8em;
+		padding-bottom: 0.7em;
 		vertical-align: top;
 	}
 	a {
-		font-size: 1.1em;
-		min-height: 17px;
-		padding: 0.5em 0 0.5em 3em;
-		background: url(../images/ico-social.png) no-repeat -9999px -9999px;
+
+		padding: 0.1em 0 0.1em 2em;
 		&.ico-tweet {
 			background-position: 0 0;
 			padding-top: 2px;
@@ -137,15 +135,16 @@
 			}
 		}
 		&.ico-linkedin {
-			background-position: -296px 0;
+			@include spr-sprite("linkedin");
+			height: 26px;
 			&:hover {
-				background-position: -296px -123px;
+				@include spr-sprite("linkedin-hover");
 			}
 		}
 		&.ico-youtube {
-			background-position: -897px 0;
+			
 			&:hover {
-				background-position: -897px -122px;
+				
 			}
 		}
 		&.ico-gplus {
@@ -220,13 +219,13 @@ input[type=submit] {
 /********************************************
 	Homepage
 *********************************************/
-
+.hp-image-container {
+	max-width: 1560px;
+	margin: 0 auto;
+	position: relative;
+}
 .front {
 	.hp-highlight {
-		position: absolute;
-		top: 175px;
-		left: 75px;
-		width: 40%;
 		h1 {
 			margin-bottom: 0.2em;
 		}
@@ -242,10 +241,6 @@ input[type=submit] {
 		}
 		.field-group-div {
 			margin-bottom: 1em;
-			height: 305px;
-			width: 292px;
-			display: inline-block;
-			vertical-align: top;
 			box-shadow: $light-grey 0 0 0.5em;
 			img {
 				width: 100%;

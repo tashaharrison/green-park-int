@@ -50,16 +50,20 @@ endif;
 	<?php print render($page['navigation']); ?>
 	<?php if (drupal_is_front_page()): ?>
 		<?php if ($image && $highlight) : ?>
-			<div class="page-image hp-image"><?php print render($image); ?></div>
-			<div class="hp-highlight">
-				<h1>Green Park Worldwide:</h1>
-				<div class="hp-highlight-text"><?php print render($highlight); ?></div>
+			<div class="hp-image-container">
+				<div class="page-image hp-image"><?php print render($image); ?></div>
+				<div class="hp-highlight">
+					<h1>Green Park Worldwide:</h1>
+					<div class="hp-highlight-text"><?php print render($highlight); ?></div>
+				</div>
 			</div>
 		<?php endif; ?>
 	<?php endif; ?>
 	<?php if ($node->type=='page'): ?>
 		<?php if ($image) : ?>
-			<div class="page-image hp-image"><?php print render($image); ?></div>
+			<div class="hp-image-container">
+				<div class="page-image hp-image"><?php print render($image); ?></div>
+			</div>
 		<?php endif; ?>
 	<?php endif; ?>
     <div class="l-content" role="main">

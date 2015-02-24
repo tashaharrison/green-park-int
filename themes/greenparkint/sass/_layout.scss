@@ -194,18 +194,40 @@
 /********************************************
 	Homepage
 *********************************************/
-.highlight {
-	display: none;
+.front {
+	.hp-highlight {
+		position: absolute;
+	}
 }
 @include at-breakpoint($tab) {
-	.highlight {
-		display: block;
+	.front {
+		.hp-highlight {
+			top: 80px;
+			left: 30px;
+			width: 50%;
+		}
+		.l-content {
+			.field-group-div {
+				margin: 0 0.1em;
+				height: 305px;
+				width: 24.4%;
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
 	}
 }
 @include at-breakpoint($desk) {
-	.front .l-content {
-		.field-group-div {
-			margin: 0 0.1em;
+	.front {
+		.hp-highlight {
+			top: 90px;
+			left: 46px;
+			width: 40%;
+		}
+		.l-content {
+			.field-group-div {
+				width: 24.56%;
+			}
 		}
 	}
 }
