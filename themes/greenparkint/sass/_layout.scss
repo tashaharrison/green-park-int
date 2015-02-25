@@ -209,10 +209,13 @@
 		.l-content {
 			.field-group-div {
 				margin: 0 0.1em;
-				height: 305px;
+				height: 390px;
 				width: 24.4%;
 				display: inline-block;
 				vertical-align: top;
+				.field--type-text-long {
+					height: 177px;
+				}
 			}
 		}
 	}
