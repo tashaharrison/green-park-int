@@ -503,3 +503,46 @@ input[type=submit] {
 		}
 	}
 }
+/********************************************
+	IE Fixes
+*********************************************/
+.lt-ie9 {
+	.l-branding {
+		width: 150px;
+		float: left;
+		margin-right: 20px;
+	}
+	.l-header {
+		background: $green;
+		padding: 1em 1em 0.5em;
+	}
+	ul.menu {
+		padding-top: 1em;
+		li {
+			float: left!important;
+			list-style: none!important;
+			padding: 0 0 0 2em;
+			a {
+				font-size: 12px;
+				color: #FFF;
+			}
+		}
+		.expanded .menu {
+			display: none;
+		}
+	}
+	.front {
+		.field-group-div {
+			width: 281px;
+			float: left;
+			margin: 0 0.5em;
+		}
+	}
+	.l-region--footer {
+		.block {
+			width: 250px;
+			float: left;
+			margin: 0 3em 1em;
+		}
+	}
+}
